@@ -1,0 +1,38 @@
+.btn {
+  background-color: $btn-default-bg-color;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 200ms ease;
+
+  &:hover {
+    background-color: $btn-default-bg-color-hover;
+    cursor: pointer;
+  }
+
+  &.btn-danger {
+    background-color: $red;
+    color: #fff;
+
+    &:hover {
+      background-color: $dark-red;
+    }
+  }
+
+  &.btn-dark {
+    background-color: $btn-default-bg-color-dark;
+    color: #fff;
+
+    &:hover {
+      background-color: $btn-default-bg-color-dark-hover;
+    }
+  }
+}
+
+.btn-green {
+  background-color: $green;
+}
