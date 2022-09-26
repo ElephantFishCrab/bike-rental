@@ -40,7 +40,7 @@ const initialState: BicyclesState = {
         new Bicycle('Contessa Scale 900 Comp M', BicycleVariant.MTB, BicycleSize.MEDIUM, contessaRentalPrices),
         new Bicycle('Contessa Scale 900 Comp L', BicycleVariant.MTB, BicycleSize.LARGE, contessaRentalPrices),
         new Bicycle('Contessa Scale 900 Comp L', BicycleVariant.MTB, BicycleSize.LARGE, contessaRentalPrices),
-        new Bicycle('Contessa Scale 900 Comp L', BicycleVariant.MTB, BicycleSize.LARGE, contessaRentalPrices),
+        new Bicycle('Contessa Scale 900 Comp L', BicycleVariant.MTB, BicycleSize.LARGE, contessaRentalPrices)
     ],
     rentals: []
 };

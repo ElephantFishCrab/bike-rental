@@ -31,7 +31,7 @@ function App() {
 
             <section className={templateName + '__content'}>
                 <div className={templateName + '__content__bicycle-list'}>
-                    <BicycleList title={'Rent a bike!'} bicycles={bicycles} />
+                    <BicycleList title={'Rent a bike'} bicycles={bicycles} />
                 </div>
 
                 <RentalsList title={'My rentals'} rentals={rentals} />
