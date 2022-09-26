@@ -3,8 +3,9 @@ import bicyclesReducer from '../features/bicycle/entity/BicyclesStoreSlice';
 
 export const store = configureStore({
   reducer: {
-    bicycles: bicyclesReducer,
+    bicycles: bicyclesReducer
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false})
 });
 
 export type AppDispatch = typeof store.dispatch;
